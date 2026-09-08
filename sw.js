@@ -1,6 +1,6 @@
 self.addEventListener('install', (e) => {
   e.waitUntil(
-    caches.open('Toldos-store').then((cache) => cache.addAll([
+    caches.open('Reservas-store').then((cache) => cache.addAll([
       './',
       './index.html',
       './manifest.json'
